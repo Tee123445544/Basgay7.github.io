@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+    </header>
+
+    <nav>
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับ</a>
+        <a href="#services">บริการ</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+
+    <section id="home">
+        <h2>หน้าแรก</h2>
+        <p>ยินดีต้อนรับสู่เว็บไซต์ของเรา! เรามีข้อมูลหลากหลายที่คุณสามารถเรียนรู้ได้จากที่นี่</p>
+    </section>
+
+    <section id="about">
+        <h2>เกี่ยวกับเรา</h2>
+        <p>เราคือทีมงานที่สร้างเว็บไซต์เพื่อแสดงข้อมูลและบริการต่างๆ ให้กับผู้ใช้งาน</p>
+    </section>
+
+    <section id="services">
+        <h2>บริการของเรา</h2>
+        <ul>
+            <li>บริการที่ 1</li>
+            <li>บริการที่ 2</li>
+            <li>บริการที่ 3</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>ติดต่อเรา</h2>
+        <p>หากคุณมีคำถามหรือข้อสงสัย โปรดติดต่อเราผ่านอีเมล: example@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 เว็บไซต์ของฉัน. สงวนลิขสิทธิ์.</p>
+    </footer>
+</body>
+</html>
